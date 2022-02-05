@@ -1,0 +1,10 @@
+{% block content %}
+    <ul>
+    {% for row in data %}
+    {% for i in row %}
+        <li>{{ i }}</li>
+        {% endfor %}
+    <h>-------------------------------------</h>
+    {% endfor %}
+    </ul>
+{% endblock %}
